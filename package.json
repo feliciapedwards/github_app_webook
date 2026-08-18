@@ -1,0 +1,29 @@
+{
+  "name": "github_app_webook",
+  "version": "1.0.0",
+  "description": "https://docs.github.com/en/apps/creating-github-apps/writing-code-for-a-github-app/building-a-github-app-that-responds-to-webhook-events",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feliciapedwards/github_app_webook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feliciapedwards/github_app_webook/issues"
+  },
+  "homepage": "https://github.com/feliciapedwards/github_app_webook#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "octokit": "^5.0.5"
+  },
+  "devDependencies": {
+    "smee-client": "^5.0.0"
+  }
+}
